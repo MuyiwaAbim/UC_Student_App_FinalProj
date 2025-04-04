@@ -1,6 +1,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UCStudentApp.MajorSelectionPage">
+             x:Class="UC_Student_App_FinalProj.MajorSelectionPage">
     <StackLayout Padding="20">
         <Label Text="Select Your Major" FontSize="24" HorizontalOptions="Center"/>
         <Picker x:Name="majorPicker">

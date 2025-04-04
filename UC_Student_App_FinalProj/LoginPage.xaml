@@ -1,6 +1,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="UCStudentApp.LoginPage">
+             x:Class="UC_Student_App_FinalProj.LoginPage">
     <StackLayout Padding="20">
         <Label Text="Login" FontSize="24" HorizontalOptions="Center"/>
         <Entry x:Name="usernameEntry" Placeholder="Username"/>

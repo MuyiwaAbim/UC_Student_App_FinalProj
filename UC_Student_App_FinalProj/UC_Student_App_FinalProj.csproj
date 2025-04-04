@@ -71,6 +71,12 @@
 	  <Compile Update="MajorSelectionPage.xaml.cs">
 	    <DependentUpon>MajorSelectionPage.xaml</DependentUpon>
 	  </Compile>
+	  <Compile Update="ProfilePage.xaml.cs">
+	    <DependentUpon>ProfilePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="PostsPage.xaml.cs">
+	    <DependentUpon>PostsPage.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -78,6 +84,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="MajorSelectionPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="ProfilePage.xaml">
+	    <Generator></Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="PostsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

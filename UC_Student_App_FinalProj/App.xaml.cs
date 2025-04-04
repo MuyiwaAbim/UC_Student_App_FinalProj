@@ -1,13 +1,11 @@
-﻿using Microsoft.Maui.Controls;
-
-namespace UCStudentApp
+﻿namespace UC_Student_App_FinalProj
 {
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new AppShell(); // Setting the AppShell as the main page
         }
     }
 }

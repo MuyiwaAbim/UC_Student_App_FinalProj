@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
     x:Class="UC_Student_App_FinalProj.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -8,8 +7,26 @@
     Title="UC_Student_App_FinalProj">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Title="Login Page"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage" />
+
+    <ShellContent
+        Title="Major Selection"
+        ContentTemplate="{DataTemplate local:MajorSelectionPage}"
+        Route="MajorSelectionPage" />
+
+    <ShellContent
+        Title="Posts"
+        ContentTemplate="{DataTemplate local:PostsPage}"
+        Route="PostsPage" />
+
+    <!-- Additional pages that are not yet populated -->
+    <ShellContent
+        Title="Profile"
+        ContentTemplate="{DataTemplate local:ProfilePage}"
+        Route="ProfilePage" />
+
+   
 
 </Shell>

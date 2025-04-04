@@ -1,6 +1,7 @@
 using Microsoft.Maui.Controls;
+using UC_Student_App_FinalProj;
 
-namespace UCStudentApp
+namespace UC_Student_App_FinalProj
 {
     public partial class LoginPage : ContentPage
     {

@@ -1,6 +1,7 @@
 using Microsoft.Maui.Controls;
+using UC_Student_App_FinalProj;
 
-namespace UCStudentApp
+namespace UC_Student_App_FinalProj
 {
     public partial class MajorSelectionPage : ContentPage
     {
@@ -16,5 +17,6 @@ namespace UCStudentApp
                 await Navigation.PushAsync(new PostsPage());
             }
         }
+
     }
 }
